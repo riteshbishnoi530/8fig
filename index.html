@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>8fig</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/image/svg/favicon.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                    screens: {
+                        "2xl": "1140px",
+                    },
+                },
+                extend: {
+
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- ================hero============== -->
+    <section class="lg:px-6 bg-[url('./assets/image/webp/header.bg.webp')] bg-center bg-no-repeat bg-cover w-full h-[851px] flex items-center justify-center">
+        <div class="container flex flex-grow items-center justify-center">
+            <header class="absolute top-6 left-6">
+                <nav>
+                    <a href="/"><img src="/assets/image/svg/logo.svg" alt="logo"></a>
+                </nav>
+            </header>
+            <div class="flex items-center justify-between w-full max-lg:flex-col-reverse max-lg:gap-[55px]">
+                <div class="flex-grow max-lg:w-full flex flex-col justify-center px-9">
+                    <h1 class="Display leading-[100%] max-w-[478px] font-bold text-[62px] text-white max-xl:text-5xl max-md:text-[47px] font-abril">Get AI funding for your store</h1>
+                    <p class="font-medium text-[22px] text-white max-w-[408px] pt-6 max-sm:text-lg">AI technology that predicts, plans, and protects your cash flow.</p>
+                    <button class="text-white mt-6 py-[10px] px-10 max-w-[179px] rounded-full bg-[#4C57FF] transition-all ease-linear duration-300 hover:scale-105 text-base font-medium">Get funded</button>
+                </div>
+                <div class="flex-grow text-center max-lg:w-full">
+                    <img src="./assets/image/webp/funds.webp" alt="funds" class="max-lg:hidden w-full ml-auto max-w-[366px]">
+                    <img class="lg:hidden max-w-[250px] max-md:max-w-[192px] ml-auto" src="./assets/image/webp/hero-small.webp" alt="hero-small">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============platforms============== -->
+    <section class="bg-[#0E1122] pt-[46px] px-[50px] pb-[54px]">
+        <div class="container">
+            <div class="flex flex-wrap gap-[52px] justify-center max-w-[739px] mx-auto">
+                <p class="text-sm font-medium text-white uppercase text-center">main supported platforms</p>
+                <div class="flex gap-[52px] justify-center items-center flex-wrap">
+                <img class="max-lg:w-[88px]" src="./assets/image/svg/amazon.svg" alt="amazon">
+                <img class="max-lg:w-[134px]" src="./assets/image/svg/shopify.svg" alt="shopify">
+                <img class="max-lg:w-[73px]" src="./assets/image/svg/ebay.svg" alt="ebay">
+                <img class="max-lg:w-[101px]" src="./assets/image/svg/bigcommerce.svg" alt="bigcommerce">
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===============AI evaluation =========== -->
+    <section class="py-[120px] max-lg:pt-[60px] max-lg:pb-14 bg-[#EFECE6]">
+        <div class="container">
+            <div class="flex max-lg:text-center flex-wrap lg:items-center max-lg:flex-col-reverse gap-[100px]">
+                <div>
+                    <img class="max-w-[480px] max-lg:hidden flex justify-center items-center" src="./assets/image/webp/revenue.webp" alt="revenue">
+                    <img class="lg:hidden ml-auto max-w-[368px]" src="./assets/image/webp/revenue-small.webp" alt="revenue-small">
+                </div>
+                <div class="max-lg:flex max-lg:flex-col px-6">
+                    <img class="w-9 max-lg:mx-auto" src="./assets/image/svg/one.svg" alt="one">
+                    <p class="font-abril max-w-[368px] max-lg:max-w-[600px] text-[40px] max-sm:text-[28px] font-semibold leading-[115%] mt-[14px] max-lg:mx-auto">Get an AI evaluation of
+                        your supply  chain needs</p>
+                    <p class="text-[22px] max-sm:text-lg font-medium max-w-[313px] max-lg:max-w-[500px] mt-1 max-lg:mx-auto">By analyzing your sales velocity and growth
+                        potential.</p>
+                        <div>
+                    <button
+                        class="font-medium text-xs bg-[#4C57FF] py-[8px] px-[23px] rounded-3xl text-white mt-4 transition-all ease-linear duration-300 hover:scale-105">Apply
+                        now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= a rating======== -->
+    <section class="bg-[#0E1122] py-[87px] max-lg:py-[52px] px-6">
+        <div class="container">
+            <div class="flex flex-wrap max-w-[1167px] mx-auto justify-between gap-9 max-lg:justify-center">
+                <img class="max-lg:w-[147px]" src="./assets/image/svg/a-rating.svg" alt="a-rating">
+                <img class="max-lg:w-[132px]" src="./assets/image/svg/store-groth.svg" alt="store-groth">
+                <img class="max-lg:w-[147px]" src="./assets/image/svg/trustpilot.svg" alt="trustpilot">
+                <img class="max-lg:w-[132px]" src="./assets/image/svg/funding-given.svg" alt="funding-given">
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========faq========== -->
+<section class="px-6 bg-[#EFECE6] pt-[70px] max-lg:pt-14">
+    <div>
+        <p class="text-center text-sm font-medium text-[#76767F]">still have questions?</p>
+        <p class="text-center text-[39px] max-sm:text-[28px] font-semibold text-[#0E1122] mt-5 font-abril">Learn more with FAQ</p>
+    </div>
+    <div class="accordion max-w-[1240px] py-[60px] max-lg:pt-10 max-lg:pb-14 mx-auto">
+        <div class="accordion-item border-b border-b-[#DDDDDF] py-5">
+          <div class="accordion-header flex justify-between items-center cursor-pointer">
+            <h4 class="font-medium text-lg text-[#0E1122]">Who is eligible for a Growth Plan?</h4>
+            <div class="icon-wrapper transition-transform">
+              <svg class="icon w-6 h-6 plus-icon" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+              </svg>
+              <svg class="icon w-6 h-6 minus-icon hidden" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15" />
+              </svg>
+            </div>
+          </div>
+          <div class="accordion-content hidden text-[#0E1122] pt-4 font-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quisquam officiis eos quae vero assumenda quam veniam autem vitae aliquid ullam, aliquam mollitia at commodi? Nostrum, corporis laboriosam. Recusandae, ab!
+          </div>
+        </div>
+        <div class="accordion-item border-b border-b-[#DDDDDF] py-5">
+          <div class="accordion-header flex justify-between items-center cursor-pointer">
+            <h4 class="font-medium text-lg text-[#0E1122]">How much funding can I qualify for?</h4>
+            <div class="icon-wrapper transition-transform">
+              <svg class="icon w-6 h-6 plus-icon" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+              </svg>
+              <svg class="icon w-6 h-6 minus-icon hidden" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15" />
+              </svg>
+            </div>
+          </div>
+          <div class="accordion-content hidden text-[#0E1122] pt-4 font-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quisquam officiis eos quae vero assumenda quam veniam autem vitae aliquid ullam, aliquam mollitia at commodi? Nostrum, corporis laboriosam. Recusandae, ab!
+          </div>
+        </div>
+        <div class="accordion-item border-b border-b-[#DDDDDF] py-5">
+          <div class="accordion-header flex justify-between items-center cursor-pointer">
+            <h4 class="font-medium text-lg text-[#0E1122]">Who is eligible for a Growth Plan?</h4>
+            <div class="icon-wrapper transition-transform">
+              <svg class="icon w-6 h-6 plus-icon" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+              </svg>
+              <svg class="icon w-6 h-6 minus-icon hidden" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15" />
+              </svg>
+            </div>
+          </div>
+          <div class="accordion-content hidden text-[#0E1122] pt-4 font-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quisquam officiis eos quae vero assumenda quam veniam autem vitae aliquid ullam, aliquam mollitia at commodi? Nostrum, corporis laboriosam. Recusandae, ab!
+          </div>
+        </div>
+        <div class="accordion-item border-b border-b-[#DDDDDF] py-5">
+          <div class="accordion-header flex justify-between items-center cursor-pointer">
+            <h4 class="font-medium text-lg text-[#0E1122]">How much funding can I qualify for?</h4>
+            <div class="icon-wrapper transition-transform">
+              <svg class="icon w-6 h-6 plus-icon" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+              </svg>
+              <svg class="icon w-6 h-6 minus-icon hidden" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15" />
+              </svg>
+            </div>
+          </div>
+          <div class="accordion-content hidden text-[#0E1122] pt-4 font-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quisquam officiis eos quae vero assumenda quam veniam autem vitae aliquid ullam, aliquam mollitia at commodi? Nostrum, corporis laboriosam. Recusandae, ab!
+          </div>
+        </div>
+      </div>
+      
+</section>
+
+    <!-- ========8 figure seller============== -->
+    <section>
+        <div class="flex max-lg:flex-col max-w-[1160px] mx-auto justify-between lg:items-center max-lg:gap-11 py-12 max-lg:pt-[51px] max-lg:pb-[90px]">
+            <div class="text-center flex flex-col items-center px-6">
+                <p class="text-[39px] max-sm:text-[28px] font-semibold max-w-[400px] font-abril">Become an 8 figure seller with AI funding</p>
+                <button class="font-medium text-base bg-[#4C57FF] py-[10px] px-[48px] rounded-3xl text-white mt-5 transition-all ease-linear duration-300 hover:scale-105">Apply
+                    now</button>
+            </div>
+            <div>
+                <img class="max-w-[440px] max-lg:max-w-[417px] max-lg:-translate-x-16" src="./assets/image/webp/seller.webp" alt="seller">
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========footer========== -->
+    <section class="bg-[#0E1122] pt-14 pb-[62px] max-lg:pb-7">
+        <div class="px-[52px] max-lg:px-9">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="/">
+                    <img src="./assets/image/svg/logo.svg" alt="logo">
+                </a>
+                <p
+                    class="max-lg:hidden text-sm mr-[77px] max-xl:mr=[50px] ml-[166px] max-xl:ml-[80px] text-[#76767F] font-medium max-w-[163px]">
+                    8fig, 1717 W 6th St,
+                    Austin, Texas</p>
+                <p class="max-lg:hidden text-sm text-[#76767F] font-medium">©2024 8fig - All Rights Reserved</p>
+            </div>
+            <div class="flex gap-9 max-lg:gap-6 items-center">
+                <a target="_blank" class="transition-all ease-linear duration-300 hover:scale-125" href="https://www.facebook.com/"><img class="max-lg:h-5" src="./assets/image/svg/facebook.svg" alt="facebook"></a>
+                <a target="_blank" class="transition-all ease-linear duration-300 hover:scale-125" href="https://www.instagram.com/"><img class="max-lg:h-5" src="./assets/image/svg/instagram.svg" alt="instagram"></a>
+                <a target="_blank" class="transition-all ease-linear duration-300 hover:scale-125" href="https://www.linkedin.com/"><img class="max-lg:h-5" src="./assets/image/svg/linkedin.svg" alt="linkedin"></a>
+                <a target="_blank" class="transition-all ease-linear duration-300 hover:scale-125" href="https://www.twitter.com/"><img class="max-lg:h-5" src="./assets/image/svg/twitter.svg" alt="twitter"></a>
+            </div>
+        </div>
+        <div class="flex flex-col gap-16 mt-[14px]">
+            <p
+                    class="lg:hidden text-sm text-[#76767F] font-medium max-w-[163px]">
+                    8fig, 1717 W 6th St,
+                    Austin, Texas</p>
+                <p class="lg:hidden text-sm text-[#76767F] font-medium text-center">©<span id="current-year"></span> 8fig - All Rights Reserved</p>
+        </div>
+    </div>
+    </section>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+/* ================poppins font family=========== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sawarabi+Gothic&display=swap');
+
+/* ================abril display font family========== */
+@font-face {
+    font-family: "abril-display";
+    src: url("/assets/fonts/Abril_Display_Bold.otf") format("truetype");
+   }
+
+  .font-abril{
+    font-family: "abril-display";
+  }
+
+  *{
+    font-family: "Poppins", sans-serif;
+  }
+.accordion-content {
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    max-height: 0;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon {
+    display: inline-block;
+  }
+  
+  .plus-icon {
+    display: block;
+  }
+  
+  .minus-icon {
+    display: none;
+  }
+  
+  .icon-wrapper.active .plus-icon {
+    display: none;
+  }
+  
+  .icon-wrapper.active .minus-icon {
+    display: block;
+  }
+  .icon-wrapper .icon {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .icon-wrapper.active .icon {
+    transform: rotate(180deg);
+  }
+  
