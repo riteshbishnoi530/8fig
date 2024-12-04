@@ -41,6 +41,8 @@
   
   .minus-icon {
     display: none;
+    transform: rotate3d(90deg);
+    transition: all 500ms linear;
   }
   
   .icon-wrapper.active .plus-icon {
